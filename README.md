@@ -19,6 +19,8 @@ o	Age and emotion results are sent back to the frontend for display.
 
 MODEL DESCRIPTION:
 The DeepFace library integrates state-of-the-art pre-trained models for facial recognition tasks. It supports models like VGG-Face, Google FaceNet, and OpenFace, allowing multi-task learning for age and emotion detection based on trained neural networks.
+
+
 IMPLEMENTATION:
 1.	Capture or upload an image via the web interface.
 2.	Use the DeepFace analyze method to detect age and emotion.
