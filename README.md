@@ -23,6 +23,7 @@ IMPLEMENTATION:
 1.	Capture or upload an image via the web interface.
 2.	Use the DeepFace analyze method to detect age and emotion.
 3.	Display the result on the user interface in real-time.
+
 OUTPUT
 ![image](https://github.com/user-attachments/assets/dd7bd18d-8445-4ad7-94a2-dda0e362ea0f)
 ![image](https://github.com/user-attachments/assets/1d7ea24f-b87e-47b6-bffe-61ffe58901eb)
