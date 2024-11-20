@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Recognition System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="animated-title">Facial Recognition System</h1>
+            <p class="sub-title">Real-time Emotion and Age Detection</p>
+            <a href="#camera" class="cta-button">Try it Now</a>
+        </div>
+    </header>
+
+    <section id="camera" class="camera-section">
+        <h2>Live Camera</h2>
+        <video id="video" autoplay></video>
+        <button id="capture" class="capture-button">Capture</button>
+        <canvas id="canvas" style="display:none;"></canvas>
+    </section>
+
+    <section id="results" class="results">
+        <h2>Analysis Results</h2>
+        <p id="emotion">Detected Emotion: None</p>
+        <p id="age">Estimated Age: None</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Facial Recognition System</p>
+    </footer>
